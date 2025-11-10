@@ -1,0 +1,215 @@
+{
+  "products": {
+    "regular": [
+      {
+        "id": 1,
+        "name": "قهوه اسپرسو ایتالیایی",
+        "price": "۲۹۰,۰۰۰ تومان",
+        "originalPrice": "۳۴۰,۰۰۰ تومان",
+        "image": "/Images/premium_photo-1674407009848-4da7a12b6b25.avif",
+        "category": "نوشیدنی",
+        "badge": "پرفروش",
+        "rating": 4.8,
+        "reviews": 124,
+        "isPrime": true,
+        "discount": 15,
+        "type": "regular"
+      },
+      {
+        "id": 2,
+        "name": "فرنچ پرس شیشه‌ای حرفه‌ای",
+        "price": "۱۸۰,۰۰۰ تومان",
+        "originalPrice": "۲۲۰,۰۰۰ تومان",
+        "image": "/Images/photo-1596098823457-74e360fcd023.avif",
+        "category": "تجهیزات",
+        "badge": "جدید",
+        "rating": 4.6,
+        "reviews": 89,
+        "isPrime": true,
+        "discount": 18,
+        "type": "regular"
+      },
+      {
+        "id": 3,
+        "name": "دانه قهوه برزیل درجه یک",
+        "price": "۲۲۰,۰۰۰ تومان",
+        "image": "/Images/premium_photo-1671379526961-1aebb82b317b.avif",
+        "category": "دانه خاص",
+        "badge": "ویژه",
+        "rating": 4.9,
+        "reviews": 203,
+        "isPrime": true,
+        "discount": 0,
+        "type": "regular"
+      }
+    ],
+    "discount": [
+      {
+        "id": 4,
+        "name": "قهوه اسپرسو ایتالیایی - پک اقتصادی",
+        "price": "۲۹۰,۰۰۰ تومان",
+        "originalPrice": "۳۴۰,۰۰۰ تومان",
+        "image": "/Images/premium_photo-1674407009848-4da7a12b6b25.avif",
+        "category": "نوشیدنی",
+        "badge": "شگفت‌انگیز",
+        "rating": 4.8,
+        "reviews": 124,
+        "isPrime": true,
+        "discount": 15,
+        "dealType": "lightning",
+        "timeLeft": "02:45:30",
+        "soldCount": 45,
+        "totalCount": 100,
+        "type": "discount"
+      },
+      {
+        "id": 5,
+        "name": "فرنچ پرس شیشه‌ای حرفه‌ای + قهوه هدیه",
+        "price": "۱۸۰,۰۰۰ تومان",
+        "originalPrice": "۲۲۰,۰۰۰ تومان",
+        "image": "/Images/photo-1596098823457-74e360fcd023.avif",
+        "category": "تجهیزات",
+        "badge": "فروش ویژه",
+        "rating": 4.6,
+        "reviews": 89,
+        "isPrime": true,
+        "discount": 18,
+        "dealType": "special",
+        "timeLeft": "1 روز",
+        "soldCount": 23,
+        "totalCount": 50,
+        "type": "discount"
+      }
+    ],
+    "premium": [
+      {
+        "id": 6,
+        "name": "ست کامل قهوه ساز حرفه‌ای ایتالیایی دلوگنگی",
+        "price": "۱,۲۹۰,۰۰۰ تومان",
+        "originalPrice": "۱,۵۰۰,۰۰۰ تومان",
+        "image": "/Images/premium_photo-1664970900335-a7c99062bc51.avif",
+        "category": "تجهیزات حرفه‌ای",
+        "badge": "پریمیوم",
+        "rating": 4.9,
+        "reviews": 89,
+        "isPrime": true,
+        "discount": 14,
+        "isPremium": true,
+        "features": ["گرید حرفه‌ای", "گارانتی طلایی", "پشتیبانی VIP"],
+        "timeLeft": "۲ روز",
+        "soldCount": 43,
+        "type": "premium"
+      },
+      {
+        "id": 7,
+        "name": "قهوه عربیکا درجه یک اتیوپی سیدامو",
+        "price": "۴۵۰,۰۰۰ تومان",
+        "image": "/Images/photo-1525088553748-01d6e210e00b.avif",
+        "category": "دانه خاص",
+        "badge": "انحصاری",
+        "rating": 5.0,
+        "reviews": 156,
+        "isPrime": true,
+        "discount": 0,
+        "isPremium": true,
+        "features": ["درجه AA", "ارگانیک", "بسته‌بندی ویژه"],
+        "timeLeft": "۱ هفته",
+        "soldCount": 128,
+        "type": "premium"
+      }
+    ]
+  },
+  "categories": {
+    "main": [
+      { "id": 1, "name": "همه دسته‌بندی‌ها", "count": 45, "active": true },
+      { "id": 2, "name": "قهوه اسپرسو", "count": 12, "active": false },
+      { "id": 3, "name": "قهوه ترک", "count": 8, "active": false },
+      { "id": 4, "name": "دانه قهوه", "count": 15, "active": false },
+      { "id": 5, "name": "قهوه فوری", "count": 5, "active": false },
+      { "id": 6, "name": "تجهیزات دم‌آوری", "count": 25, "active": false },
+      { "id": 7, "name": "اکسسوری قهوه", "count": 18, "active": false }
+    ],
+    "premium": [
+      { "id": 8, "name": "پرفروش‌ترین‌ها", "count": 45, "active": true },
+      { "id": 9, "name": "جدیدترین‌ها", "count": 28, "active": false },
+      { "id": 10, "name": "محصولات پریمیوم", "count": 32, "active": false },
+      { "id": 11, "name": "تخفیف‌های ویژه", "count": 15, "active": false },
+      { "id": 12, "name": "منتخب کاربران", "count": 41, "active": false }
+    ]
+  },
+  "filters": {
+    "brands": ["دیویدوف", "لاوازا", "ایلی", "استارباکس", "نسپرسو", "کمکس"],
+    "priceRanges": [
+      { "id": 1, "label": "زیر ۱۰۰ هزار تومان", "value": "0-100" },
+      { "id": 2, "label": "۱۰۰ تا ۳۰۰ هزار تومان", "value": "100-300" },
+      { "id": 3, "label": "۳۰۰ تا ۵۰۰ هزار تومان", "value": "300-500" },
+      { "id": 4, "label": "بالای ۵۰۰ هزار تومان", "value": "500-1000" }
+    ],
+    "premiumPriceRanges": [
+      { "id": 5, "label": "زیر ۵۰۰ هزار تومان", "value": "0-500" },
+      { "id": 6, "label": "۵۰۰ هزار تا ۱ میلیون", "value": "500-1000" },
+      { "id": 7, "label": "۱ تا ۲ میلیون تومان", "value": "1000-2000" },
+      { "id": 8, "label": "بالای ۲ میلیون تومان", "value": "2000-5000" }
+    ],
+    "discountRanges": [
+      { "id": 9, "label": "۱۰٪ تا ۲۰٪", "value": "10-20" },
+      { "id": 10, "label": "۲۰٪ تا ۳۰٪", "value": "20-30" },
+      { "id": 11, "label": "۳۰٪ تا ۵۰٪", "value": "30-50" },
+      { "id": 12, "label": "بالای ۵۰٪", "value": "50-100" }
+    ],
+    "ratings": [4, 3, 2, 1],
+    "levels": ["پریمیوم پلاس", "پریمیوم", "استاندارد ویژه"],
+    "features": ["گارانتی ویژه", "پشتیبانی VIP", "بسته‌بندی لوکس", "تحویل اکسپرس"]
+  },
+  "dealTypes": [
+    { "id": "all", "name": "همه تخفیف‌ها", "count": 45, "icon": "FiZap" },
+    { "id": "lightning", "name": "پیشنهادهای شگفت‌انگیز", "count": 18, "icon": "FiZap" },
+    { "id": "special", "name": "فروش ویژه", "count": 15, "icon": "FiStar" },
+    { "id": "clearance", "name": "تخفیف پایان فصل", "count": 12, "icon": "FiClock" }
+  ],
+  "sellerBenefits": [
+    {
+      "id": 1,
+      "icon": "FiUser",
+      "title": "پروفایل فروشنده اختصاصی",
+      "description": "صفحه فروشگاه شخصی با قابلیت سفارشی‌سازی"
+    },
+    {
+      "id": 2,
+      "icon": "FiPackage",
+      "title": "مدیریت آسان محصولات",
+      "description": "سیستم مدیریت محصولات پیشرفته و کاربرپسند"
+    },
+    {
+      "id": 3,
+      "icon": "FiTruck",
+      "title": "پشتیبانی لجستیک",
+      "description": "همکاری با بهترین شرکت‌های حمل و نقل"
+    },
+    {
+      "id": 4,
+      "icon": "FiAward",
+      "title": "گواهی فروشنده معتبر",
+      "description": "دریافت گواهی رسمی فروشنده پریمیوم"
+    }
+  ],
+  "sellerRequirements": [
+    "دارا بودن مجوزهای قانونی مرتبط",
+    "تضمین کیفیت محصولات",
+    "قیمت‌گذاری رقابتی و منصفانه",
+    "پشتیبانی مشتریان ۲۴ ساعته",
+    "ارسال به موقع سفارشات"
+  ],
+  "stats": {
+    "activeSellers": 500,
+    "totalProducts": 50000,
+    "satisfactionRate": 98,
+    "supportAvailability": "24/7"
+  },
+  "sellerApplications": [],
+  "siteInfo": {
+    "name": "فروشگاه قهوه",
+    "supportPhone": "۰۲۱-۱۲۳۴۵۶۷۸",
+    "supportEmail": "support@coffeestore.com"
+  }
+}
